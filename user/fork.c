@@ -14,5 +14,5 @@ if(pid > 0) {
     printf("child: exiting\n");
     exit(0);
 } else {
-    printf("fork error\n");
+    printf("fork error!\n"); 
 }
