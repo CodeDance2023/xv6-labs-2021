@@ -194,6 +194,9 @@ UPROGS=\
 	$U/_wc\
 	$U/_zombie\
 	$U/_fork\
+	$U/_sleep\
+	$U/_pingpong\
+
 
 
 

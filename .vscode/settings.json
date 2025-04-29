@@ -1,0 +1,9 @@
+{
+    "editor.suggest.showColors": false,
+    "diffEditor.renderGutterMenu": false,
+    "scm.diffDecorationsGutterAction": "none",
+    "scm.diffDecorationsGutterPattern": {
+        "modified": false
+    },
+    "scm.diffDecorationsGutterVisibility": "hover"
+}

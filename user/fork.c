@@ -10,11 +10,15 @@ int main() {
         printf("child: %d\n", pid );
         exit(0);
     }
+
     else {
        int status = -11111;
        int *p = &status;
+       wait(p);
         printf("status: %d\n", *p);
         printf("parent: %d\n",pid);
         exit(0);
     }
 }
+
+
