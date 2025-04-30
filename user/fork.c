@@ -4,7 +4,7 @@
 #include <stddef.h>
 
 //fork测试
-int main() {
+int main() 
     int pid = fork();
     if (pid == 0) {
         printf("child: %d\n", pid );

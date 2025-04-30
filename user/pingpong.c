@@ -7,7 +7,6 @@ int main(int argc, char* argv[]) {
     pipe(p);
     char buff[64];
 
-    printf("!!\n");
     int pid = fork();
     if (pid < 0) {
         printf("error: fork failed!");
